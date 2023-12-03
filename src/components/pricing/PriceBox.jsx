@@ -19,6 +19,7 @@ function PriceBox({ freeP, startP, proP }) {
           Free for ever
         </p>
         <button
+          data-testId="CTA"
           href="/"
           className="dark-button w-full flex justify-center h-14 px-8 mt-8"
         >
