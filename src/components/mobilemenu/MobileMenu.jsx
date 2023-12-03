@@ -5,10 +5,6 @@ import { easeInOut, motion } from "framer-motion";
 function MobileMenu() {
   const [show, setShow] = useState(false);
 
-  function close() {
-    setShow(false);
-  }
-
   const links = ["Features", "Testimonial", "Pricing", "FAQs", "Blog"];
   return (
     <div className="y-center block 880:hidden">

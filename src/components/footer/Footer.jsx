@@ -1,9 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router";
-import { Google, Instagram, LinkedIn, Twitter } from "../svg/Socials";
 
 function Footer() {
-  const navigate = useNavigate();
   return (
     <div className="bg-neutral-100">
       <div className="container">

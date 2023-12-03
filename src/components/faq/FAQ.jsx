@@ -9,6 +9,7 @@ import {
 } from "react-accessible-accordion";
 import { Plus } from "../svg/Plus";
 import { easeInOut, motion } from "framer-motion";
+import { questions } from "./contants";
 
 const variants = {
   open: { opacity: 1, y: 0 },
@@ -27,33 +28,7 @@ function FAQ() {
   const [isOpensss, setIsOpensss] = useState(false);
   const [isOpenssss, setIsOpenssss] = useState(false);
   const [isOpensssss, setIsOpensssss] = useState(false);
-  const questions = [
-    {
-      cue: "Can I cancel my subscrition?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
-    {
-      cue: "What happens when my trial ends?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
 
-    {
-      cue: "Do you offer discounts to educational institutions ?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
-    {
-      cue: "What payment methods do you offer?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
-    {
-      cue: "Can I cancel my subscrition?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
-    {
-      cue: "What is your refund policy?",
-      text: "Keep your schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
-    },
-  ];
   return (
     <div id="FAQs" className="container">
       {" "}
